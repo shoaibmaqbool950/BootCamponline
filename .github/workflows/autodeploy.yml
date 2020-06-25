@@ -31,4 +31,4 @@ jobs:
     - name: Installing surge
       run: sudo npm install --global surge
     - name: deploying using surge
-      run: surge ./ shoaibmaqbool950.surge.sh --token $ {{secrets.SURGE_TOKEN}}
+      run: surge ./ shoaibmaqbool950.surge.sh --token "2698222f76639fcef1b0cde7141e7208"
